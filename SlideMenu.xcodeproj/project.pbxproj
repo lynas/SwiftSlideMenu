@@ -14,6 +14,7 @@
 		FC78C4DC1E365ED900F5FD33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC78C4DA1E365ED900F5FD33 /* LaunchScreen.storyboard */; };
 		FC78C4E61E366B4100F5FD33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC78C4E51E366B4100F5FD33 /* Main.storyboard */; };
 		FC78C4EA1E3686FE00F5FD33 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC78C4E91E3686FE00F5FD33 /* LeftViewController.swift */; };
+		FC78C4F01E369BD100F5FD33 /* RightMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC78C4EF1E369BD100F5FD33 /* RightMenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		FC78C4DD1E365ED900F5FD33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC78C4E51E366B4100F5FD33 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		FC78C4E91E3686FE00F5FD33 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
+		FC78C4EF1E369BD100F5FD33 /* RightMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightMenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				FC78C4D81E365ED900F5FD33 /* Assets.xcassets */,
 				FC78C4DA1E365ED900F5FD33 /* LaunchScreen.storyboard */,
 				FC78C4E91E3686FE00F5FD33 /* LeftViewController.swift */,
+				FC78C4EF1E369BD100F5FD33 /* RightMenuViewController.swift */,
 			);
 			path = SlideMenu;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 			files = (
 				FC78C4EA1E3686FE00F5FD33 /* LeftViewController.swift in Sources */,
 				FC78C4D41E365ED900F5FD33 /* MainViewController.swift in Sources */,
+				FC78C4F01E369BD100F5FD33 /* RightMenuViewController.swift in Sources */,
 				FC78C4D21E365ED900F5FD33 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

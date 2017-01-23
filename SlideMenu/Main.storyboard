@@ -27,6 +27,31 @@
             </objects>
             <point key="canvasLocation" x="-14122" y="-4857"/>
         </scene>
+        <!--Right Menu View Controller-->
+        <scene sceneID="9n1-vD-TJM">
+            <objects>
+                <viewController restorationIdentifier="RightMenuViewController" storyboardIdentifier="RightMenuViewController" id="U52-Ir-odC" customClass="RightMenuViewController" customModule="SlideMenu" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rcm-e7-6ze"/>
+                        <viewControllerLayoutGuide type="bottom" id="ADx-KI-9Xr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Igb-M8-D2j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYD-BI-9EN">
+                                <rect key="frame" x="16" y="28" width="57" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Option 1"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kW7-Pp-XGM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-13377" y="-4857"/>
+        </scene>
         <!--Left View Controller-->
         <scene sceneID="sFi-Mk-oi1">
             <objects>
@@ -43,7 +68,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lUS-bO-ueg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-13399" y="-4857"/>
+            <point key="canvasLocation" x="-15022" y="-4857"/>
         </scene>
     </scenes>
 </document>

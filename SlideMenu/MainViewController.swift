@@ -14,8 +14,8 @@ class MainViewController: SlideMenuController {
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		let leftViewController = self.storyboard?.instantiateViewController(withIdentifier: "LeftViewController") as! LeftViewController
-		self.slideMenuController()?.rightViewController = leftViewController
+		let rightMenuViewController = self.storyboard?.instantiateViewController(withIdentifier: "RightMenuViewController") as! RightMenuViewController
+		self.slideMenuController()?.rightViewController = rightMenuViewController
 		self.slideMenuController()?.addRightGestures()
 
 	
