@@ -9,31 +9,20 @@
 import UIKit
 import SlideMenuControllerSwift
 
-class MainViewController: UIViewController {
+class MainViewController: SlideMenuController {
 
 
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		let leftViewController = self.storyboard?.instantiateViewController(withIdentifier: "LeftViewController") as! LeftViewController
+		self.slideMenuController()?.rightViewController = leftViewController
+		self.slideMenuController()?.addRightGestures()
 
 	
 	}
 	
 	override func viewWillAppear(_ animated: Bool) {
 		super.viewWillAppear(animated)
-		setNavigationBarItem()
 	}
-	
-	func setNavigationBarItem() {
-		self.addLeftBarButtonWithImage(UIImage(named: "sub")!)
-		self.addRightBarButtonWithImage(UIImage(named: "sub")!)
-		self.slideMenuController()?.removeLeftGestures()
-		self.slideMenuController()?.removeRightGestures()
-		self.slideMenuController()?.addLeftGestures()
-		self.slideMenuController()?.addRightGestures()
-	}
-	
-	
-
-
 }
 
