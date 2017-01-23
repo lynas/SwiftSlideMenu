@@ -7,4 +7,5 @@ target 'SlideMenu' do
 
   # Pods for SlideMenu
   pod 'SWRevealViewController'
+  pod 'SlideMenuControllerSwift'
 end

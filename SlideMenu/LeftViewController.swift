@@ -1,14 +1,14 @@
 //
-//  RearViewController.swift
+//  LeftViewController.swift
 //  SlideMenu
 //
-//  Created by Md Sazzad Islam on 1/23/17.
+//  Created by Md Sazzad Islam on 1/24/17.
 //  Copyright © 2017 lynas. All rights reserved.
 //
 
 import UIKit
 
-class RearViewController: UIViewController {
+class LeftViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

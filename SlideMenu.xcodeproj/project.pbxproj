@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		77852C16CECE36B9131878E5 /* Pods_SlideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 536EAF75F7C8C8D99A71BE96 /* Pods_SlideMenu.framework */; };
 		FC78C4D21E365ED900F5FD33 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC78C4D11E365ED900F5FD33 /* AppDelegate.swift */; };
-		FC78C4D41E365ED900F5FD33 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC78C4D31E365ED900F5FD33 /* ViewController.swift */; };
+		FC78C4D41E365ED900F5FD33 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC78C4D31E365ED900F5FD33 /* MainViewController.swift */; };
 		FC78C4D91E365ED900F5FD33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC78C4D81E365ED900F5FD33 /* Assets.xcassets */; };
 		FC78C4DC1E365ED900F5FD33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC78C4DA1E365ED900F5FD33 /* LaunchScreen.storyboard */; };
-		FC78C4E41E366ACB00F5FD33 /* RearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC78C4E31E366ACB00F5FD33 /* RearViewController.swift */; };
 		FC78C4E61E366B4100F5FD33 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC78C4E51E366B4100F5FD33 /* Main.storyboard */; };
+		FC78C4EA1E3686FE00F5FD33 /* LeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC78C4E91E3686FE00F5FD33 /* LeftViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +22,12 @@
 		890F781095676E3691D7ECFA /* Pods-SlideMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlideMenu/Pods-SlideMenu.debug.xcconfig"; sourceTree = "<group>"; };
 		FC78C4CE1E365ED900F5FD33 /* SlideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC78C4D11E365ED900F5FD33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC78C4D31E365ED900F5FD33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC78C4D31E365ED900F5FD33 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FC78C4D81E365ED900F5FD33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC78C4DB1E365ED900F5FD33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC78C4DD1E365ED900F5FD33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC78C4E31E366ACB00F5FD33 /* RearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RearViewController.swift; sourceTree = "<group>"; };
 		FC78C4E51E366B4100F5FD33 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		FC78C4E91E3686FE00F5FD33 /* LeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,13 +80,13 @@
 		FC78C4D01E365ED900F5FD33 /* SlideMenu */ = {
 			isa = PBXGroup;
 			children = (
+				FC78C4DD1E365ED900F5FD33 /* Info.plist */,
+				FC78C4E51E366B4100F5FD33 /* Main.storyboard */,
 				FC78C4D11E365ED900F5FD33 /* AppDelegate.swift */,
-				FC78C4D31E365ED900F5FD33 /* ViewController.swift */,
+				FC78C4D31E365ED900F5FD33 /* MainViewController.swift */,
 				FC78C4D81E365ED900F5FD33 /* Assets.xcassets */,
 				FC78C4DA1E365ED900F5FD33 /* LaunchScreen.storyboard */,
-				FC78C4DD1E365ED900F5FD33 /* Info.plist */,
-				FC78C4E31E366ACB00F5FD33 /* RearViewController.swift */,
-				FC78C4E51E366B4100F5FD33 /* Main.storyboard */,
+				FC78C4E91E3686FE00F5FD33 /* LeftViewController.swift */,
 			);
 			path = SlideMenu;
 			sourceTree = "<group>";
@@ -215,8 +215,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC78C4E41E366ACB00F5FD33 /* RearViewController.swift in Sources */,
-				FC78C4D41E365ED900F5FD33 /* ViewController.swift in Sources */,
+				FC78C4EA1E3686FE00F5FD33 /* LeftViewController.swift in Sources */,
+				FC78C4D41E365ED900F5FD33 /* MainViewController.swift in Sources */,
 				FC78C4D21E365ED900F5FD33 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
